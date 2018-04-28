@@ -32,18 +32,15 @@ library:
  - exceptions
 
 executables:
-  knapsack-elvm-exe:
+  knapsack-elvm-example:
     main:                Main.hs
-    source-dirs:         app
+    source-dirs:         example
     ghc-options:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
     - knapsack-elvm
-    - mtl
-    - array
-    - transformers
 
 tests:
   knapsack-elvm-test:
