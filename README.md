@@ -4,7 +4,7 @@
 Knapsack problem solver converted from C language by [ELVM](https://github.com/shinh/elvm).  
 This is an example of how to wrap auto-generated Haskell.
 
-## Usage
+## Example Source
 
 This example seems to be very NORMAL. However, `Knapsack` moudle is a just wrapper of `KnapsackElvm` module.
 
@@ -27,6 +27,13 @@ main = do
 
   print maxValue
 
+```
+
+### Run this example
+
+```bash
+stack build # It takes long time. Please be patient.
+stack exec knapsack-elvm-example
 ```
 
 
