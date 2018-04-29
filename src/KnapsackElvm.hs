@@ -8,11 +8,12 @@ module KnapsackElvm where
 import Data.Char
 import Data.Bits
 import Control.Monad.Trans
+import Data.Array.MArray
 
 import ElvmUtil
 
 
-generalMain :: forall a t m r. (MonadTrans t, MArrayWithIx a Int Int m, GetPutInt (t m), MRef m r) => t m ()
+generalMain :: forall a t m r. (MonadTrans t, MArray a Int m, GetPutInt (t m), MRef m r) => t m ()
 generalMain = do
  exitsRef <- lift (newRef False) :: t m (r Bool)
  aRef <- lift (newRef 0) :: t m (r Int)

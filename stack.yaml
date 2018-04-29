@@ -41,7 +41,7 @@ packages:
 # (e.g., acme-missiles-0.3)
 extra-deps:
 - git: https://github.com/nwtgck/elvm-util-haskell.git
-  commit: 53c6bfacc0fb6f78b4ef621c44e293e3d88409cd
+  commit: 09be09ea9532f3bb8ddb0f604d2ee651a17ec23d
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
