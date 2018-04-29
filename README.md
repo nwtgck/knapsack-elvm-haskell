@@ -1,5 +1,5 @@
 # knapsack-elvm
-[![Build Status](https://travis-ci.org/nwtgck/knapsack-elvm-haskell.svg?branch=master)](https://travis-ci.org/nwtgck/knapsack-elvm-haskell)
+[![wercker status](https://app.wercker.com/status/a88f5eaead3bdeb0a96baa1c396e1efe/s/master "wercker status")](https://app.wercker.com/project/byKey/a88f5eaead3bdeb0a96baa1c396e1efe)
 
 Knapsack problem solver converted from C language by [ELVM](https://github.com/shinh/elvm).  
 This is an example of how to wrap auto-generated Haskell.
