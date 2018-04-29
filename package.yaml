@@ -29,6 +29,7 @@ library:
  - array
  - transformers
  - exceptions
+ - elvm-util
 
 executables:
   knapsack-elvm-example:
